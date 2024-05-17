@@ -1,0 +1,135 @@
+/* ------------------------------
+    :: ARREGLO PARA MENU RESPONSIVE ::
+------------------------------ */
+@media (max-width: 500px){
+    #burguer {
+        right: 9%;
+        top: 88px;
+    }
+}
+/* ------------------------------
+    :: PORTADA Y BREADCRUMBS ::
+------------------------------ */
+.bar-contacto{
+    z-index:1;
+}
+.portada-container{
+    background-image: url(../img/portada-nuestra-labor-social.jpg);
+    min-height: 350px;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+    background-repeat: no-repeat;
+}
+@media (min-width:1600px){
+    .portada-container{
+        min-height: 450px;
+    }
+}
+.portada-titulo{
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 1.875rem;
+    color: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 200px;
+    text-align: center;
+}
+@media (min-width:1600px){
+    .portada-titulo{
+        top: 250px;
+    }
+}
+.menu-desktop{
+    top:60px!important;
+}
+.breadcrumbs-container{
+    background-color:#D1D2D3;
+    margin-top: 326px;
+    min-height:48px;
+    padding: 0 8%;
+    margin-bottom: 0px;
+}
+@media (min-width:1600px){
+    .breadcrumbs-container{
+        margin-top: 425px;
+    }
+}
+
+.breadcrumbs-container li {
+    list-style: none;
+    display: flex;
+    position: relative;
+    text-align: center;
+    line-height: 1;
+}
+
+/* .breadcrumbs-container li{
+    list-style:none;
+} */
+
+.breadcrumbs-container li:after {
+    height: 15px;
+    content: "";
+    border-right: 1px solid #7F7F7F;
+    padding-left: 0 !important;
+    opacity: 0.6;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+}
+
+.breadcrumbs-container li:nth-of-type(1) a:before{
+    content: url(../img/list-square.png);
+    position: absolute;
+    left: -5px;
+    /* top: -2px; */
+}
+/* .breadcrumbs-container li:after{
+    content: "";
+    border-right: 1px solid #7F7F7F;
+    padding-left: 12px;
+    opacity:0.6;
+} */
+.breadcrumbs-container li:nth-child(1):after{
+    content: "";
+    border-right: none;
+    padding-left: 12px;
+    opacity:0.6;
+}
+
+/* .breadcrumbs-container li:nth-last-child(1) a:after{
+    content: "";
+    border-right: none;
+    padding-left: 12px;
+    opacity:0.6;
+} */
+
+.breadcrumbs-container li a {
+    color: #7F7F7F;
+    font-family: "Work Sans";
+    font-size: 0.875rem;
+    padding: 15px;
+    position: relative;
+}
+
+/* .breadcrumbs-container li a{
+    color:#7F7F7F;
+    font-family:"Work Sans";
+    font-size:0.875rem;
+    padding-left:18px;
+    position:relative;
+} */
+@media (max-width:500px){
+    .breadcrumbs-container{
+        height:0px;
+        min-height:0px;
+    }
+    .breadcrumbs-container li{
+        display:none;
+    }
+}

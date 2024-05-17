@@ -1,0 +1,473 @@
+/*
+
+ Theme Name:   GeneratePress Child
+
+ Theme URI:    http://generatepress.com
+
+ Description:  Default GeneratePress child theme
+
+ Author:       Thomas Usborne
+
+ Author URI:   http://edge22.com
+
+ Template:     generatepress
+
+ Version:      0.1
+
+ Tags: two-columns, three-columns, one-column, right-sidebar, left-sidebar, fluid-layout, responsive-layout, custom-header, custom-background, custom-menu, custom-colors, sticky-post, threaded-comments, translation-ready, featured-images, theme-options, light, white, dark, black, blue, brown, gray, green, orange, pink, purple, red, silver, tan, yellow
+
+*/
+
+@font-face {
+
+    font-family: Pacifico-Regular;
+
+    src: url(/wp-content/themes/generatepress_child/fonts/pacifico/Pacifico-Regular.ttf);
+
+}
+
+@font-face {
+
+    font-family: Lato-Black;
+
+    src: url(/wp-content/themes/generatepress_child/fonts/lato/Lato-Black.ttf);
+
+}
+
+@font-face {
+
+    font-family: Lato-Heavy;
+
+    src: url(/wp-content/themes/generatepress_child/fonts/lato/Lato-Heavy.ttf);
+
+}
+
+@font-face {
+
+    font-family: Lato-Light;
+
+    src: url(/wp-content/themes/generatepress_child/fonts/lato/Lato-Light.ttf);
+
+}
+
+@font-face {
+
+    font-family: Lato-Regular;
+
+    src: url(/wp-content/themes/generatepress_child/fonts/lato/Lato-Regular.ttf);
+
+}
+
+li#menu-item-788 {
+
+    background: #46444c;
+
+}
+
+li#menu-item-788 a  {
+
+    color: #fff;
+
+}
+
+li#menu-item-788.current-menu-item a  {
+
+    color: #3f3f3f;
+
+}
+
+    
+
+li#menu-item-788:hover a {
+
+    background: #f88646;
+
+}
+
+li#wpmenucartli {
+
+    background: #f88646;
+
+    left: 3px;
+
+}
+
+li#wpmenucartli a {
+
+    color: #fff;
+
+}
+
+li#wpmenucartli a:hover {
+
+    color: #46444c;
+
+}
+
+p {
+
+	font-family: Lato-Regular;
+
+}
+
+.content-1 {
+
+    text-align: right;
+
+}
+
+.content-2 {
+
+    position: relative; 
+
+    left: 230px; 
+
+    display: inline-block;"
+
+}
+
+
+
+.texto-bienvenido h1 {
+
+	color: #46444c;
+
+    font-size: 70px;
+
+    font-family: Pacifico-Regular;
+
+    font-weight: 200;
+
+}
+
+
+
+.texto-bienvenido h2 {
+
+	color: #f88646;
+
+    font-family: Pacifico-Regular;
+
+    font-weight: 200;
+
+    font-size: 39px;
+
+    line-height: 0;
+
+}
+
+.texto-bienvenido p {
+
+	color: #46444c;
+
+    font-weight: 400;
+
+    display: inline-block;
+
+    font-size: 16px;
+
+    line-height: 1em;
+
+    margin: 0;
+
+    width: 60%;
+
+    padding-left: 10px;
+
+}
+
+.consultoria {
+
+    margin: 0;
+
+}
+
+.consultoria h1 {
+
+    color: #f88f55;
+
+    font-size: 60px;
+
+    font-family: Pacifico-Regular;
+
+    font-weight: 400;
+
+}
+
+.consultoria h2 {
+
+    color: #78d4dc;
+
+    font-size: 30px;
+
+    font-family: Lato-light;
+
+    text-transform: uppercase;
+
+    line-height: 0em;
+
+    font-weight: 400;
+
+}
+
+.consultoria h2 span {
+
+    font-weight: bold;
+
+	font-family: Lato-Heavy;
+
+}
+
+.consultoria p {
+
+    color: #fff;
+
+    font-size: 25px;
+
+    line-height: 1.3em;
+
+}
+
+.elementor-element.elementor-element-pu2i3pe.boton-consultar.elementor-widget.elementor-widget-button {
+
+    bottom: 30px;
+
+}
+
+.boton-consultar a.elementor-button-link.elementor-button.elementor-size-lg {
+
+    border: 2px transparent solid;
+
+}
+
+.boton-consultar a.elementor-button-link.elementor-button.elementor-size-lg:hover {
+
+    background-color: #fff;
+
+    color: #f88f55;
+
+    border: 2px #78d4dc solid;
+
+}
+
+/* cajas*/
+
+.content-consultoria {
+
+    text-align: center;
+
+    background-color: #fff;
+
+    border: 12px solid #fff;
+
+}
+
+.content-consultoria h1 {
+
+    color: #46444c;
+
+    text-transform: uppercase;
+
+    font-size: 25px;
+
+	font-family: Lato-Black;
+
+}
+
+.content-consultoria hr {
+
+    border: 1px solid #d8d8d8;
+
+    margin: 10px;
+
+}
+
+.content-consultoria p {
+
+    font-size: 14px;
+
+    padding-right: 40px;
+
+    padding-left: 40px;
+
+    margin: 10px;
+
+    line-height: 1.20em;
+
+}
+
+p.desc-email {
+
+    padding-left: 0px;
+
+    padding-right: 0px;
+
+}
+
+.content-consultoria a {
+
+    color: #fff !important;
+
+}
+
+.boton-consultar2 {
+
+    width: 100%;
+
+    border-radius: 0px;
+
+    background-color: #f88f55;
+
+    height: 60px;
+
+    font-size: 16px;
+
+    padding-top: 18px !important;
+
+	position: absolute;
+
+	left: 0;
+
+	margin: 0;
+
+}
+
+
+
+@media(max-width: 767px){
+
+    .responsive {
+
+    background-color: rgba(143, 143, 143, 0.24);
+
+    text-align: center;
+
+}
+
+.content-1 {
+
+    text-align: center;
+
+}
+
+.texto-bienvenido h1 {
+
+    font-size: 50px;
+
+}
+
+.texto-bienvenido p {
+
+    color: #000;
+
+    width: 80%;
+
+}
+
+.content-2 {
+
+    left: 0;
+
+}
+
+iframe.video-home {
+
+    padding-bottom: 100px;
+
+}
+
+.consultoria p br {
+
+    display: none;
+
+}
+
+.content-consultoria {
+
+    margin-bottom: 40px;
+
+}
+
+}
+
+@media (max-width: 320px){
+
+.texto-bienvenido h1 {
+
+    font-size: 40px;
+
+}
+
+.consultoria h1 {
+
+    font-size: 55px;
+
+}
+
+.consultoria h2 {
+
+    font-size: 25px;
+
+    line-height: 1em;
+
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 1199px) { 
+
+    .responsive {
+
+    background-color: rgba(143, 143, 143, 0.24);
+
+}
+
+    .content-1 {
+
+    text-align: left;
+
+}
+
+    .texto-bienvenido h1 {
+
+    font-size: 44px;
+
+}
+
+    .content-2 {
+
+    left: 0;
+
+}
+
+.texto-bienvenido p {
+
+    width: 100%;
+
+    position: relative;
+
+    top: -35px;
+
+    color: #000;
+
+}
+
+.elementor-253 .elementor-element.elementor-element-4ll5dqf > .elementor-widget-container {
+
+    margin: 0 !important;
+
+}
+
+.consultoria p br {
+
+    display: none;
+
+}
+
+.content-consultoria p {
+
+    padding: 0 !important;
+
+}
+
+}

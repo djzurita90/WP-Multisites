@@ -1,0 +1,274 @@
+/* ------------------------------
+	:: CUSTOM POST TYPE ::
+------------------------------ */
+
+.page-title {
+    color: #E1E1E1;
+    font-size: 6rem;
+    line-height: 0.9;
+}
+.page-title span{ display: block; }
+.card-title{font-size: 1.25rem;}
+.btn-post{ color: #80282B; border: 1px solid; border-radius: 5px; }
+.card-post{ padding: 20px; z-index: 99; background:white; }
+.card-post:hover{ transition: all 0.7s cubic-bezier(.25,.8,.25,1); -moz-transform: scale(1.05, 1.05); -ms-transform: scale(1.05, 1.05); -webkit-transform: scale(1.05, 1.05); transform-origin: bottom; transform: scale(1.05, 1.05); box-shadow: 0 5px 10px rgba(0,0,0,0.25), 0 5px 10px rgba(0,0,0,0.22); }
+button.btn-post{ background: white; transition: all 0.3s cubic-bezier(.25,.8,.25,1); }
+.card-post:hover .btn-post, .btn-post:hover{ color: #ffffff; background: #80282B; }
+
+/* ------------------------------
+	:: POST CONTENT ::
+------------------------------ */
+button.btn-frambuesa{cursor: pointer;}
+.post-content{margin-right: -130px; z-index: 9;}
+.post-content .post-title{ 
+    color: #80282B; 
+    border-bottom: 3px solid; 
+    margin-top: 0 !important;
+    max-width: 270px;
+    width: 100%;
+    font-size: 2rem;
+}
+.post-text{
+    -webkit-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.75);
+    background: white;
+}
+
+.galeria-laborSocial{position: relative; }
+.section-modal .modal {
+    background: rgba(0,0,0,.85);
+}
+.section-modal .modal-body {
+    padding: 0;
+}
+.section-modal .modal-content {
+    background-color: transparent;
+    border: none;
+}
+.section-modal .slick-track{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-modal button.close {
+    padding: 0;
+    background-color: transparent;
+    border: 0;
+    -webkit-appearance: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 3rem;
+}
+.section-modal .modal .slick-next:before { content: '\00276F'; }
+.section-modal .modal .slick-prev:before { content: '\00276E'; }
+
+.section-modal .modal .slick-prev:before,
+.section-modal .modal .slick-next:before {
+    color: #ffffff !important;
+    margin-top: -3px;
+}
+
+.section-modal .modal .slick-next,
+.section-modal .modal .slick-prev{
+    width: 30px;
+    height: 30px;
+    background: #666666;
+    border-radius: 100%;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+.section-modal .modal .slick-next:hover,
+.section-modal .modal .slick-prev:hover{
+    background: #80282B;
+}
+.section-modal .modal .close{
+    width: 30px;
+    height: 30px;
+    background: #80282B;
+    border-radius: 100%;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+    font-size: 2rem;
+}
+.section-modal .modal .close:focus{
+    outline: none;
+}
+.section-modal .modal .close span{
+    margin-top: -5px;
+}
+.msg__adicional{
+    position: relative;
+    padding: 5px;
+    color: #80282B;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 1.5em;
+    margin-left: 110px;
+}
+.msg__adicional p{
+    margin-bottom: 0;
+}
+.msg__adicional:before, .msg__adicional:after {
+    height: 30px;
+    width: 50px;
+    position: absolute;
+    content: '';
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+    opacity: 1;
+}
+.msg__adicional:before{
+    left: 0;
+    top: 0;
+    border-left: 2px solid #80282B;
+    border-top: 2px solid #80282B;
+    -webkit-transform: translate(0%, 0%);
+    transform: translate(0%, 0%);
+}
+.msg__adicional:after {
+    right: 0;
+    bottom: 0;
+    border-right: 2px solid #80282B;
+    border-bottom: 2px solid #80282B;
+    -webkit-transform: translate(0%, 0%);
+    transform: translate(0%, 0%);
+}
+.texto-cursivo{
+    font-family: "Quentin";
+    font-weight: 400;
+    font-size: 1.3em;
+    display: block;
+    font-size: 1.8rem;
+}
+.msg__adicional strong{
+    font-weight: 700;
+}
+.title-carousel {
+    min-height: 350px;
+    background: url(../img/mata-de-cafe.jpg)no-repeat left / contain;
+    background-position-x: 0px;
+}
+@media (max-width:700px){
+    .title-carousel{
+        min-height:200px;
+    }
+}
+@media (max-width:430px){
+    .title-carousel{
+        min-height:80px;
+    }
+}
+@media (max-width:380px){
+    .title-carousel{
+        min-height:160px;
+    }
+}
+@media (max-width:340px){
+    .title-carousel{
+        min-height:65px;
+    }
+}
+ .title-carousel h2{
+	position: relative;
+    font-size: 2em;
+    text-align: right;
+    padding-right: 30vh;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.title-carousel h2:before{
+	content: '';
+    position: absolute;
+    right: 0;
+    height: 5px;
+    background: #80282B;
+    width: 20vh;
+}
+
+.title-carousel h2:after{
+	content: 'Otros';
+	position: absolute;
+	right: 25vh;
+	font-size: 1.5em;
+	line-height: 1;
+	color: #E1E1E1;
+	z-index: -1;
+}
+
+.slick-slide { outline: none; }
+.card-body a{text-decoration: none;}
+.slick-prev:before, .slick-next:before{ color: #80282B; }
+.slide-item{ background-origin: content-box !important; background-clip: content-box !important; }
+.prev, .next{ font-size: 2rem; color: #666666; text-decoration: none !important; width: 20px; text-align: center; }
+.carousel-post-laborSocial .slick-next:before { content: '\00276F'; }
+.carousel-post-laborSocial .slick-prev:before { content: '\00276E'; }
+.prev:hover, .next:hover{ color: #80282B; }
+.article__post{
+    align-items: flex-start;
+}
+@media (max-width: 992px) {
+    .card-post{padding: 10px;}
+    .page-title{font-size: 3.2rem; }
+}
+@media (max-width: 767px) {
+  .article__post{
+    flex-direction: column;
+  }
+  .card-post{padding: 5px;}
+  .details{order: 2;}
+  .post-content{
+      order: 2;
+      margin-right: 0;
+      margin-left: 0 !important;
+  }
+    .msg__adicional{
+        margin-left: 0;
+        font-size: 1.2em;
+    }
+
+    .texto-cursivo {
+        font-family: "Quentin";
+        font-weight: 400;
+        font-size: 1.3em;
+        display: block;
+        font-size: 2.rem;
+    }
+    .texto-cursivo {
+        font-size: 2.rem;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .page-title{font-size: 2.2rem; }
+    .title-carousel h2 {
+        font-size: 1.5em;
+        padding-right: 15vh;
+        padding-left: 20px;
+    }
+    .title-carousel h2:before {
+        width: 13vh;
+    }
+    .title-carousel h2:after {
+        right: 15vh;
+        font-size: 1.2em;
+    }
+}
+
+
+/* ------------------------------
+    :: ADAPTACIÓN DE LA SECCIÓN DE LABOR SOCIAL PARA QUE SEA COMPATIBLE CON EFECTO VISUAL DE PORTADA ::
+------------------------------ */
+.labor__social{
+    background: white;
+}

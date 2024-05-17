@@ -1,0 +1,306 @@
+/*Definición de la imagen de la portada*/
+.portada-container{
+    background-image: url(../img/Fondo-background.jpg)!important;
+}
+
+/* Contáctanos */
+
+.contactanos {
+    background-color: rgb(150, 35, 40);
+}
+
+.list-group-item .img-tel{
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+    margin-top: -4px;
+}
+
+.list-group-item .img-email {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    margin-top: -4px;
+    margin-left: -1px;
+}
+
+.list-group-item .img-posicion {
+    width: 20.8px;
+    height: 20.8px;
+    margin-right: 25px;
+    margin-left: 2px;
+}
+
+.your-subject textarea {
+    height: 83px;
+}
+
+.contactanos .row {
+    padding-bottom: 5rem;
+}
+
+.contactanos h3 {
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    position: relative;
+}
+
+.contactanos h3::before {
+    border: 2px solid;
+    content: "";
+    position: absolute;
+    width: 95%;
+    left: -100%;
+    bottom: 16px;
+}
+
+.form-control {
+    border-radius: inherit;
+    color: rgb(119, 119, 119);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.contactanos .form-control::placeholder {
+    color: rgb(119, 119, 119);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.btn.btn-formulario {
+    background-color: inherit;
+    border: 2px solid #c8a27e;
+    border-radius: inherit;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding: 0.4rem 2rem 0.4rem 2rem;
+}
+
+.contactanos .imagen-de-fondo {
+    background-image: url(../img/Fondo-background-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.list-group {
+    margin-top: 8rem;
+    padding-left: 1.3rem;
+}
+
+.list-group .list-group-item {
+    background-color: inherit !important;
+    border: inherit;
+    margin-left: 0.7rem;
+    color: rgb(255, 255, 255);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1rem;
+}
+
+.list-group .list-group-item span {
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size:1.35375rem;
+}
+
+.list-group .list-group-item a {
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-size:1.35375rem;
+}
+
+.redes-sociales {
+    position: relative;
+    margin-top: 1rem;
+}
+
+.svg-inline--fa.fa-phone-volume.fa-w-12 {
+    transform: rotate(-39deg);
+}
+
+.redes-sociales::before {
+    content: "";
+    width: 64px;
+    border: 1px solid;
+    position: absolute;
+    left: 33px;
+    top: -15px;
+}
+
+.redes-sociales a {
+    color: rgb(255, 255, 255) !important;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.redes-sociales .fa-2x {
+    font-size: 1.5em;
+}
+
+span.pr-5 {
+    padding-right: 14rem !important;
+}
+
+
+@media (min-width: 1366px) {
+
+    .contactanos .form-contact {
+        padding-right: 5rem !important;
+    }
+    span.pr-5 {
+        padding-right: 12rem !important;
+    }
+}
+
+@media (min-width: 1480px) {
+    span.pr-5 {
+        padding-right: 20rem !important;
+    }
+}
+
+@media (min-width: 1920px) {
+    .migas .container {
+        max-width: 1610px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .contactanos .form-contact {
+        padding-right: 5rem !important;
+    }
+    span.pr-5 {
+        padding-right: 11rem !important;
+    }
+}
+
+@media (max-width: 1024px) {
+    .contactanos .form-contact {
+        padding-right: 5rem !important;
+    }
+    span.pr-5 {
+        padding-right: 7rem !important;
+    }
+}
+
+@media (max-width: 960px) {
+    .list-group {
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    span.pr-5 {
+        padding-right: 0rem !important;
+    }
+    .form-contact {
+        padding-left: 4rem;
+    }
+    .contactanos h3::before {
+        border: 2px solid;
+        content: "";
+        position: absolute;
+        width: 97%;
+        left: -100%;
+        bottom: 16px;
+    }
+}
+
+@media (max-width: 425px) {
+    .portada .jumbotron h1 {
+    font-size: 2rem !important;
+}
+
+    .imagen-de-fondo.pt-5 {
+        padding-top: 1rem !important;
+        padding-bottom: 3rem;
+    }
+    .imagen-de-fondo {
+        overflow: hidden;
+    }
+    .list-group {
+        margin-top: 1rem;
+    }
+    h1.display-4 {
+        font-size: 2.5rem;
+    }
+    .contactanos h3 {
+        font-size: 1.5rem;
+    }
+    .contactanos h3::before {
+        width: 95%;
+    }
+    .boton {
+        text-align: center;
+    }
+    .list-group .list-group-item a {
+        font-size: 1rem;
+    }
+    .contactanos .row {
+        padding-left: 0rem;
+    }
+    span.pr-5 {
+        padding-right: 0rem !important;
+    }
+    .word-break-all {
+        word-break: break-all;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        -webkit-hyphens: auto;
+        -moz-hyphens: auto;
+        -ms-hyphens: auto;
+        hyphens: auto;
+    }
+}
+
+@media (max-width: 375px) {
+    .contactanos .form-contact {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+
+    .contactanos h3::before {
+        display: none;
+    }
+    .list-group {
+        margin-left: 0rem;
+        padding-left: 0;
+    }
+    .list-group .list-group-item {
+        margin-left: 0 !important;
+    }
+}
+
+/*Arreglo para contac form*/
+.form-group{
+    margin-bottom:0px!important;
+}
+.form-group.boton{
+    margin-top:1rem!important;
+    text-align: left;
+}
+.wpcf7-response-output.wpcf7-validation-errors{
+    display:none;
+}
+div.wpcf7 .screen-reader-response {
+    width: 100%;
+    color: white;
+    bottom: 30px!important;
+    text-align: right;
+    clip: inherit;
+    overflow: inherit;
+    right: 18%;
+}
+@media (max-width:500px){
+    div.wpcf7 .screen-reader-response {
+        width: 100%;
+        color: white;
+        bottom: 46px!important;
+        text-align: right;
+        clip: inherit;
+        overflow: inherit;
+        right: 5%;
+    }
+}

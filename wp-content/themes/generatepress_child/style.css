@@ -1,0 +1,720 @@
+/*
+
+ Theme Name:   GeneratePress Child
+
+ Theme URI:    http://generatepress.com
+
+ Description:  Default GeneratePress child theme
+
+ Author:       Thomas Usborne
+
+ Author URI:   http://edge22.com
+
+ Template:     generatepress
+
+ Version:      0.1
+
+ Tags: two-columns, three-columns, one-column, right-sidebar, left-sidebar, fluid-layout, responsive-layout, custom-header, custom-background, custom-menu, custom-colors, sticky-post, threaded-comments, translation-ready, featured-images, theme-options, light, white, dark, black, blue, brown, gray, green, orange, pink, purple, red, silver, tan, yellow
+
+*/
+
+@font-face {
+
+    font-family: Pacifico-Regular;
+
+    src: url(/wp-content/themes/generatepress_child/fonts/pacifico/Pacifico-Regular.ttf);
+
+}
+
+@font-face {
+
+    font-family: Lato-Black;
+
+    src: url(/wp-content/themes/generatepress_child/fonts/lato/Lato-Black.ttf);
+
+}
+
+@font-face {
+
+    font-family: Lato-Heavy;
+
+    src: url(/wp-content/themes/generatepress_child/fonts/lato/Lato-Heavy.ttf);
+
+}
+
+@font-face {
+
+    font-family: Lato-Light;
+
+    src: url(/wp-content/themes/generatepress_child/fonts/lato/Lato-Light.ttf);
+
+}
+
+@font-face {
+
+    font-family: Lato-Regular;
+
+    src: url(/wp-content/themes/generatepress_child/fonts/lato/Lato-Regular.ttf);
+
+}
+
+li#menu-item-788 {
+
+    background: #46444c;
+
+}
+
+li#menu-item-788 a  {
+
+    color: #fff;
+
+}
+
+li#menu-item-788.current-menu-item a  {
+
+    color: #3f3f3f;
+
+}
+
+    
+
+li#menu-item-788:hover a {
+
+    background: #f88646;
+
+}
+
+li#wpmenucartli {
+
+    background: #f88646;
+
+    left: 3px;
+
+}
+
+li#wpmenucartli a {
+
+    color: #fff;
+
+}
+
+li#wpmenucartli a:hover {
+
+    color: #46444c;
+
+}
+
+p {
+
+	font-family: Lato-Regular;
+
+}
+
+.content-1 {
+
+    text-align: right;
+
+}
+
+.content-2 {
+
+    position: relative; 
+
+    left: 230px; 
+
+    display: inline-block;"
+
+}
+
+
+
+.texto-bienvenido h1 {
+
+	color: #46444c;
+
+    font-size: 70px;
+
+    font-family: Pacifico-Regular;
+
+    font-weight: 200;
+
+}
+
+
+
+.texto-bienvenido h2 {
+
+	color: #f88646;
+
+    font-family: Pacifico-Regular;
+
+    font-weight: 200;
+
+    font-size: 39px;
+
+    line-height: 0;
+
+}
+
+.texto-bienvenido p {
+
+	color: #46444c;
+
+    font-weight: 400;
+
+    display: inline-block;
+
+    font-size: 16px;
+
+    line-height: 1em;
+
+    margin: 0;
+
+    width: 60%;
+
+    padding-left: 10px;
+
+}
+
+.consultoria {
+
+    margin: 0;
+
+}
+
+.consultoria h1 {
+
+    color: #f88f55;
+
+    font-size: 60px;
+
+    font-family: Pacifico-Regular;
+
+    font-weight: 400;
+
+}
+
+.consultoria h2 {
+
+    color: #78d4dc;
+
+    font-size: 30px;
+
+    font-family: Lato-light;
+
+    text-transform: uppercase;
+
+    line-height: 0em;
+
+    font-weight: 400;
+
+}
+
+.consultoria h2 span {
+
+    font-weight: bold;
+
+	font-family: Lato-Heavy;
+
+}
+
+.consultoria p {
+
+    color: #fff;
+
+    font-size: 25px;
+
+    line-height: 1.3em;
+
+}
+
+.elementor-element.elementor-element-pu2i3pe.boton-consultar.elementor-widget.elementor-widget-button {
+
+    bottom: 30px;
+
+}
+
+.boton-consultar a.elementor-button-link.elementor-button.elementor-size-lg {
+
+    border: 2px transparent solid;
+
+}
+
+.boton-consultar a.elementor-button-link.elementor-button.elementor-size-lg:hover {
+
+    background-color: #fff;
+
+    color: #f88f55;
+
+    border: 2px #78d4dc solid;
+
+}
+
+/* cajas*/
+
+.content-consultoria {
+
+    text-align: center;
+
+    background-color: #fff;
+
+    border: 12px solid #fff;
+
+}
+
+.content-consultoria h1 {
+
+    color: #46444c;
+
+    text-transform: uppercase;
+
+    font-size: 25px;
+
+	font-family: Lato-Black;
+
+}
+
+.content-consultoria hr {
+
+    border: 1px solid #d8d8d8;
+
+    margin: 10px;
+
+}
+
+.content-consultoria p {
+
+    font-size: 14px;
+
+    padding-right: 40px;
+
+    padding-left: 40px;
+
+    margin: 10px;
+
+    line-height: 1.20em;
+
+}
+
+p.desc-email {
+
+    padding-left: 0px;
+
+    padding-right: 0px;
+
+}
+
+.content-consultoria a {
+
+    color: #fff !important;
+
+}
+
+.boton-consultar2 {
+
+    width: 100%;
+
+    border-radius: 0px;
+
+    background-color: #f88f55;
+
+    height: 60px;
+
+    font-size: 16px;
+
+    padding-top: 18px !important;
+
+	position: absolute;
+
+	left: 0;
+
+	margin: 0;
+
+}
+
+
+/* 
+//----------------------------------------------
+//==> CAROUSEL PRODUCTOS - EDUCACION Y CURSOS ::
+//----------------------------------------------
+*/
+
+.elementor-element-a098aa8{
+    background-image: url(http://ama.opperdev.com/wp-content/uploads/2017/11/back_portfolio.jpg);
+    background-size: cover;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+[data-id="847da16"] .elementor-column-wrap.elementor-element-populated { padding: 0 !important; }
+[data-id="2e6ee67"] .elementor-widget-container { display: flex; justify-content: flex-end; }
+[data-id="2e6ee67"] .elementor-widget-container h2{ border-left: 5px solid #f88f55; padding-left: 10px; font-weight: 200; }
+
+.carousel-item {background: #ffffff; transition: all .3s; border: 2px solid transparent; padding: 20px 30px;}
+.carousel-item:hover {border: 2px solid #f88f55;}
+.carousel-item:focus {outline: none;}
+.carousel-item .item-header {display: flex; justify-content: center;}
+.item-header figure {max-width: 30%;}
+.item-header figure img {max-width: 100%; background: transparent;}
+.item-header h2 {padding: 0 10px; text-align: center; font-size: 1.5rem; margin: 0;}
+.item-content {margin: 20px 0;}
+.item-content p { line-height: 1.2; text-align: center; }
+.item-footer { display: flex; justify-content: center; align-items: center; }
+.item-footer a {margin: 0 10px;}
+.item-footer a:nth-of-type(1) { color: #f88f55; text-decoration: underline; }
+.item-footer a:nth-of-type(2){ color: #ffffff; background: #f88f55; border-radius: 5px; padding: 10px; }
+
+.elementor-element-d96358f { max-width: 1200px; margin: auto; }
+.elementor-element-d96358f p {line-height: 1.2;}
+.entry-header{ background: #50545d; padding: 10px 0 20px 0; }
+.elementor-widget-container {background: transparent !important;}
+.container.grid-container { max-width: 100%; }
+.entry-title[itemprop]{
+    max-width: 1200px;
+    margin: auto;
+    color: #ffffff;
+    font-size: 60px;
+    font-family: Pacifico-Regular;
+    font-weight: 200;
+    text-align: right;
+}
+.separate-containers .inside-left-sidebar, .separate-containers .inside-right-sidebar, .separate-containers .site-main {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.post-705 a {
+    color: #7a7a7a !important;
+    font-weight: 700;
+}
+.post-705 a:hover {
+    color: #3ad071 !important;
+}
+
+/* 
+//----------------------------------------------
+//==> BLOG ::
+//----------------------------------------------
+*/
+
+.blogCategories{ display: flex; justify-content: center; align-items: center; flex-wrap: wrap; }
+.blogCategories a{ width: 100%; flex: 1; }
+.blogCategories a h2{ text-align: center; padding: 20px; margin: 0; }
+.autoestima{ background: #51bdee; }
+.relaciones{ background: #f88647; }
+.felicidad{ background: #98e070; }
+.motivacion{ background: #f2e865; }
+.post-blog-item{ padding: 20px; border-color:#e4e4e4; border-style: solid; border-width: 1px 1px 0 1px; }
+.post-blog-item:first-of-type{ border-top: none; }
+.post-blog-item:last-of-type{ border-bottom: 1px solid #e4e4e4; }
+.blog-header p{ margin-bottom: 0; }
+.blog-header p span:nth-of-type(2){ margin-left: 20px; }
+.blog-header h2{ font-weight: 700; }
+.blog-body{ display: flex; flex-wrap: wrap; }
+.blog-body figure{ flex: 1; }
+.blog-body figure img{ max-width: 100%; }
+.blog-body .content-post{ flex: 1; padding: 0 10px; }
+.blog-body .content-post p{ text-align: justify; line-height: 1.2; }
+.blog-body .content-post p span{ display: block; }
+.blog-body .content-post p span a{ color: #f88f55; text-decoration: underline; }
+/* .carousel-products-item .item-header {}
+.carousel-products-item .item-header {} */
+
+.woocommerce-message a {
+    color: #7a7a7a !important;
+    font-weight: 700;
+}
+
+.woocommerce-breadcrumb a{
+    color: #7a7a7a !important;
+}
+.woocommerce-breadcrumb a:hover{
+    color: #3ad071 !important;
+}
+
+.product.status-publish a{
+    color: #515151 !important;
+}
+
+.product.status-publish a:hover{
+    color: #3ad071 !important;
+}
+
+.right-sidebar.separate-containers .site-main {
+    margin: 0;
+}
+
+.product-name a{
+    color: #515151 !important;
+}
+
+.product-name a:hover{
+    color: #3ad071 !important;
+}
+
+.woocommerce-info a{
+    color: #515151 !important;
+}
+
+.woocommerce-info a:hover{
+    color: #3ad071 !important;
+}
+
+.wc_payment_method a{
+    color: #515151 !important;
+}
+
+.wc_payment_method a:hover{
+    color: #3ad071 !important;
+}
+
+.wsdesk_wrapper {
+    padding: 20px;
+}
+
+#suggestion-tab {
+    width: 130px !important;
+    height: 30px !important;
+    background-color: rgba(0,0,0,0.8) !important;
+    margin-right: -50px !important;
+    -moz-border-radius: 5 !important;
+    -webkit-border-radius: 5px !important;
+    border-radius: 5px !important;
+}
+
+/* 
+//----------------------------------------------
+//==>   NOTIFICACIONES ::
+//----------------------------------------------
+*/
+
+.notification, .contador{
+    position: fixed;
+    right: 2vh;
+    bottom: 2vh;
+    padding: 10px;
+    background: white;
+    z-index: 999;
+    max-width: 300px;
+    transform: translateX(100vw);
+    transition: all 1s;
+}
+.notification.active, .contador.active{ transform: translateX(0vw); }
+.notification div{
+    position: relative;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contador ul{
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+}
+.contador ul li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.contador ul li span:first-child{
+    order: 1;
+    font-size: .7em;
+    margin: 0 10px;
+}
+.notification div h2{
+	text-align: center;
+    font-size: 1em;
+    padding: 10px;
+}
+.notification div h2 span{
+	display: block;
+    margin: 10px auto;
+    padding: 5px;
+    background: yellow;
+    max-width: 20px;
+    border-radius: 20px;
+}
+.notification div a.closeNotification{
+	position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.message ul li {
+  display: flex;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+.message ul li span {
+  display: block;
+  font-size: 4.5rem;
+  order: 1;
+}
+
+
+.slick-slide > div{
+    padding: 10px;
+}
+
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: -webkit-fill-available;
+}
+
+
+@media (min-width: 1025px){
+    .grid-75 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1025px) and (min-width: 768px){
+    .tablet-grid-75 {
+        width: 100%;
+    }
+}
+
+@media(max-width: 767px){
+
+    .responsive {
+
+    background-color: rgba(143, 143, 143, 0.24);
+
+    text-align: center;
+
+}
+
+.content-1 {
+
+    text-align: center;
+
+}
+
+.texto-bienvenido h1 {
+
+    font-size: 50px;
+
+}
+
+.texto-bienvenido p {
+
+    color: #000;
+
+    width: 80%;
+
+}
+
+.content-2 {
+
+    left: 0;
+
+}
+
+iframe.video-home {
+
+    padding-bottom: 100px;
+
+}
+
+.consultoria p br {
+
+    display: none;
+
+}
+
+.content-consultoria {
+
+    margin-bottom: 40px;
+
+}
+
+}
+
+@media (max-width: 320px){
+
+.texto-bienvenido h1 {
+
+    font-size: 40px;
+
+}
+
+.consultoria h1 {
+
+    font-size: 55px;
+
+}
+
+.consultoria h2 {
+
+    font-size: 25px;
+
+    line-height: 1em;
+
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 1199px) { 
+
+    .responsive {
+
+    background-color: rgba(143, 143, 143, 0.24);
+
+}
+
+    .content-1 {
+
+    text-align: left;
+
+}
+
+    .texto-bienvenido h1 {
+
+    font-size: 44px;
+
+}
+
+    .content-2 {
+
+    left: 0;
+
+}
+
+.texto-bienvenido p {
+
+    width: 100%;
+
+    position: relative;
+
+    top: -35px;
+
+    color: #000;
+
+}
+
+.elementor-253 .elementor-element.elementor-element-4ll5dqf > .elementor-widget-container {
+
+    margin: 0 !important;
+
+}
+
+.consultoria p br {
+
+    display: none;
+
+}
+
+.content-consultoria p {
+
+    padding: 0 !important;
+
+}
+
+}

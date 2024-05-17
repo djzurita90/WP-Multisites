@@ -1,0 +1,310 @@
+/* FUENTES DE LA PAGINA CERTIFICACIONES */
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600i,700');
+
+body{
+  overflow-x: hidden;
+}
+
+h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.parrafos{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5625rem;
+  color:#4D4D4D;
+}
+
+
+@media (min-width: 995px) {
+  .separador1 {
+    margin-top: 140px;
+  } }
+
+@media (min-width: 995px) {
+  .separador2 {
+    margin-bottom: 140px;
+  } }
+
+
+@media (min-width: 995px) {
+  .separador3 {
+    margin-bottom: 40px;
+  } }
+ 
+ @media (min-width: 995px) {
+  .separador4 {
+    margin-bottom: 60px;
+  } }
+
+
+/* INICIO CODIGO PARA TITULOS UTZ, RAINFOREST */
+.border-sangria{
+  position: relative;
+}
+.border-sangria::after {
+    content: '';
+    position: absolute;
+    border-bottom: 2px solid #9c0535;
+    width: 94%;
+    height: 2px;
+    display: inline-block;
+    top: 30%;
+    left: 0;
+}
+.bold-tittle,
+.bold-tittle3{
+  font-weight: 600;
+  font-size:1.5625rem;
+  position:relative;
+  display:inline-block;
+  z-index:0;
+  color:#3A3336;
+}
+.mark-agua {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    font-size: 3rem;
+    color: #f3f3f3;
+    top: -15px;
+    left: 15%;
+    z-index: -1;
+    font-weight:500;
+}
+
+/* FIN CODIGO PARA TITULOS UTZ, RAINFOREST */
+
+
+/* INICIO CODIGO PARA TITULO STARBUCK */
+.border-sangria2{
+  position: relative;
+}
+.border-sangria2::after {
+    content: '';
+    position: relative;
+    border-bottom: 2px solid #9c0535;
+    width: 80%;
+    height: 2px;
+    display: inline-block;
+    top: -5%;
+    left: 0;
+}
+.bold-tittle2{
+  font-weight: 600;
+  float:right;
+  color:#3A3336;
+}
+.mark-agua2 {
+    position: absolute;
+    font-size: 3rem;
+    color: #f3f3f3;
+    top: -15px;
+    left: 15%;
+    z-index: -1;
+}
+
+/* FIN CODIGO PARA TITULOS UTZ, RAINFOREST */
+
+/*Adaptación puesta por AlexL para hacer funcionar el efecto de movimiento de la portada correctamente*/
+
+.pagina-certificaciones{
+  background:white;
+  padding-top:160px;
+}
+.portada-container{
+    background-image: url(../img/portada-certificaciones.jpg)!important;
+}
+
+/*CSS Creado por Alex*/
+.text-descatado{
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-weight: 600;
+}
+.bold-tittle:after{
+  content: "UTZ";
+  position: absolute;
+  right: 13px;
+  top: -13px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.125rem;
+  color: #E1E1E1;
+  z-index: -1;
+  letter-spacing: 3px;
+  font-weight:500;
+}
+.parrafo-UTZ{
+  max-width: 486px;
+}
+@media(min-width:1480px){
+  .parrafo-UTZ{
+    max-width: 100%;
+  }
+}
+.practice-container{
+  padding-top:96px;
+  overflow-x: hidden;
+}
+.bold-tittle2{
+  position:relative;
+  z-index: 0;
+  font-size:1.5625rem;
+}
+.bold-tittle2:before{
+  content: "PRACTICE";
+  position: absolute;
+  left: 70px;
+  top: -13px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.125rem;
+  color: #FFFFFF;
+  z-index: -1;
+  letter-spacing: 3px;
+  font-weight:500;
+}
+.bold-tittle2:after {
+    content: '';
+    position: absolute;
+    border-bottom: 2px solid #9c0535;
+    width: 50%;
+    height: 2px;
+    display: inline-block;
+    top: 30%;
+    left: 142%;
+}
+.starbuck-img-parrafo{
+  margin:0 12%;
+}
+.practice-parrafos{
+  max-width: 505px;
+  margin-left:auto!important;
+}
+@media(min-width:1480px){
+  .practice-parrafos{
+    max-width: 100%;
+  }
+}
+.starbucks-img{
+  width: 306px;
+}
+@media (max-width:1000px){
+  .parrafo-UTZ{
+    max-width:100%;
+  }
+  .seccion-UTZ .row:nth-of-type(2){
+    margin:0 15%;
+    margin-top:40px;
+    margin-bottom:100px;
+  }
+  .seccion-UTZ .row:nth-of-type(2) .col-lg-3{
+    text-align: center;
+  }
+}
+@media(max-width:1200px){
+  .starbuck-img-parrafo .col-lg-5{
+    margin-top:0px!important;
+    text-align:center;
+  } 
+}
+@media(max-width:1000px){
+  .starbucks-img{
+    margin-top:40px;
+    margin-bottom:20px;
+  }
+  .practice-parrafos{
+    max-width: 100%;
+  }
+  .practice-container{
+    padding-bottom:100px!important;
+  }
+}
+@media(max-width:767px){
+  .bold-tittle2{
+    margin-right: 88px;
+  }
+  .starbuck-img-parrafo{
+    margin:0 5%;
+  }
+  .seccion-UTZ .row:nth-of-type(2){
+    margin:0 5%;
+    margin-top: 40px;
+    margin-bottom: 100px;
+  }
+}
+.rainforest-container{
+  overflow-x: hidden;
+}
+@media(max-width:374px){
+  .bold-tittle2{
+    margin-right:0px;
+    left: -44px;
+  }
+  .bold-tittle2:before{
+    font-size:2.625rem;
+  }
+}
+.bold-tittle3:after {
+  content: "RAINFOREST";
+  position: absolute;
+  right: -133px;
+  top: -13px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.125rem;
+  color: #E1E1E1;
+  z-index: -1;
+  letter-spacing: 5px;
+  font-weight: 500;
+}
+@media (max-width:600px){
+  .border-sangria::after{
+    width:0px;
+  }
+  .bold-tittle3:after {
+    right: -76px;
+    letter-spacing: 0px;
+  }
+}
+@media (max-width:380px){
+  .bold-tittle3:after{
+    font-size:2.7rem;
+        right: -10px
+  }
+}
+.rainforest-container{
+  padding-bottom:210px;
+}
+.rainforest-container .parrafos{
+  max-width: 460px;
+}
+@media (max-width:1200px){
+  .rainforest-container .parrafos{
+    max-width: 100%;
+  }
+}
+@media (min-width:1480px){
+  .rainforest-container .parrafos{
+    max-width: 100%;
+  }
+}
+@media (max-width:1000px){
+  .rain-parrafos-img{
+    margin:0 13%;
+  }
+}
+@media (max-width:767px){
+  .rain-parrafos-img{
+    margin:0 5%;
+    margin-top:30px;
+  }
+  .border-sangria::after{
+    display:none;
+  }
+  .rainforest-container{
+    margin-top:100px;
+  }
+}
